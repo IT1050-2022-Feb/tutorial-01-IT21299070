@@ -14,6 +14,17 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
+  int n;
+  int i;//counter
+  
+  printf("Enter the n value you need ? :");
+  scanf("%d",&n);
+  
+  for(i=1;i<=n;i++)
+  {
+    count = count + i;
+  }
+  printf("\nThe sum of n terms is %d",count);
   return 0;
 }
 
